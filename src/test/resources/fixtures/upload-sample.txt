@@ -1,0 +1,1 @@
+CrossBrowserTesting upload fixture for The Internet file-upload exercise.

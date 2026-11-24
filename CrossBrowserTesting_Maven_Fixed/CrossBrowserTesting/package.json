@@ -1,0 +1,33 @@
+{
+  "name": "cross-browser-testing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Java cross-browser testing project",
+  "scripts": {
+    "test": "mvn test"
+  },
+  "maven": {
+    "groupId": "edu.demo",
+    "artifactId": "cross-browser-testing",
+    "version": "1.0-SNAPSHOT",
+    "javaRelease": 17,
+    "sourceEncoding": "UTF-8",
+    "properties": {
+      "seleniumVersion": "4.51.0",
+      "testngVersion": "7.10.2",
+      "extentVersion": "5.1.2",
+      "browsers": "chrome,edge",
+      "headless": false
+    },
+    "testDependencies": {
+      "org.seleniumhq.selenium:selenium-java": "4.51.0",
+      "org.testng:testng": "7.10.2",
+      "com.aventstack:extentreports": "5.1.2"
+    },
+    "plugins": {
+      "maven-compiler-plugin": "3.13.0",
+      "maven-surefire-plugin": "3.5.2"
+    },
+    "testSuite": "testng.xml"
+  }
+}

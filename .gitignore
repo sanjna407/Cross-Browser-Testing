@@ -1,0 +1,7 @@
+target/
+test-output/
+# Local dashboard runtime files (classes, logs, and process ID).
+.dashboard/
+.idea/
+.vscode/
+*.iml
